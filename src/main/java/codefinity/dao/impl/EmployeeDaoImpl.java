@@ -1,4 +1,4 @@
-package codefinity.integration;
+package codefinity.dao.impl;
 
 import codefinity.dao.EmployeeDao;
 import codefinity.model.Employee;
@@ -9,7 +9,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
 public class EmployeeDaoImpl implements EmployeeDao {
-    private SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
+    private final SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
 
 
     @Override

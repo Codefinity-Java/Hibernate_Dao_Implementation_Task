@@ -1,4 +1,4 @@
-package codefinity.integration;
+package codefinity.dao.impl;
 
 import codefinity.dao.DepartmentDao;
 import codefinity.model.Department;
